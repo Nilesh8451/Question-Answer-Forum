@@ -1,0 +1,136 @@
+.PFirst {
+    width: 100%;
+    height: 70px;
+    /* background-color: red; */
+    /* position: fixed; */
+}
+
+.PSecond {
+    width: 100%;
+    /* height:100px; */
+    /* background-color: green;  */
+    /* background-color: #F0F1F3; */
+    overflow: hidden;
+}
+
+.NOTH {
+    margin-left: 34%;
+    margin-top: 4%;
+    font-size: 21px;
+}
+
+.NotiNav {
+    width: 100%;
+    height: 40px;
+    box-shadow: 5px 2px 8px 3px #888888;
+    border: 1px solid;
+    /* background-color: red; */
+}
+
+.NotiNavF, .NotiNavS, .NotiNavT {
+    width: 33.3%;
+    height: 100%;
+    float: left;
+    margin: 0px;
+    /* background-color: yellow; */
+}
+
+.NotiP {
+    font-size: 16px;
+    text-align: center;
+    padding-top: 7%;
+    height: 100%;
+}
+
+.NotiP:hover {
+    background-color: #CCCCCC;
+}
+
+.NotiMD {
+    width: 97%;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 10%;
+    min-height: 450px;
+    box-shadow: 2px 3px 8px 3px #888888;
+    /* background-color: blue; */
+}
+
+.Notirequest {
+    width: 100%;
+    margin: auto;
+    margin-top: 3%;
+    border-bottom: 1px solid;
+    /* background-color: red; */
+}
+
+.Notirequestmaindiv {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+.NotirequstNo {
+    width: 90%;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.notiD {
+    /* height: 150px; */
+    overflow-x: hidden;
+    overflow-y: scroll;
+    overflow: auto;
+    /* background-color: red; */
+}
+
+.NotirequestspanNo {
+    margin-left: 26%;
+    /* margin-top: 10%; */
+    font-size: 20px;
+}
+
+.NotirequestNo {
+    width: 100%;
+    margin: auto;
+    margin-top: 3%;
+    /* border-bottom: 1px solid; */
+    /* background-color: red; */
+}
+
+@media only screen and (max-width: 800px) {
+    .PFirst {
+        width: 100%;
+        height: 70px;
+        /* background-color: red; */
+        position: fixed;
+    }
+    .PSecond {
+        float: left;
+        width: 100%;
+        margin-top: 56px;
+        /* height:100px; */
+        /* background-color: green;  */
+        /* background-color: #F0F1F3; */
+        overflow: hidden;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .PFirst {
+        width: 100%;
+        height: 70px;
+        /* background-color: red; */
+        position: fixed;
+    }
+    .PSecond {
+        float: left;
+        width: 100%;
+        margin-top: 56px;
+        /* height:100px; */
+        /* background-color: green;  */
+        /* background-color: #F0F1F3; */
+        overflow: hidden;
+    }
+}

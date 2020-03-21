@@ -1,0 +1,113 @@
+.title {
+    width: 50%;
+}
+
+.formdiv {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.selectdiv {
+    margin-top: 20px;
+    margin-left: 60px;
+    float: left;
+    display: block;
+}
+
+.select {
+    width: 250px;
+    margin-left: 20px;
+}
+
+.submit {
+    margin-top: 30px;
+    text-align: center;
+    display: block;
+}
+
+.LoadDiv {
+    width: 400px;
+    height: 300px;
+}
+
+.QPTAGDIV {
+    width: 500px;
+    height: 400px;
+}
+
+.QPTAGDIVBUT {
+    width: 100px;
+    margin-left: 200px;
+}
+
+@media only screen and (max-width: 800px) {
+    .AQS {
+        width: 60%;
+        margin-right: 0px;
+    }
+    .formdiv {
+        width: 98%;
+        /* background-color: red; */
+    }
+    .selectdiv {
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-right: 10px;
+        margin-bottom: 30px;
+        float: left;
+        display: block;
+    }
+    .QMTA {
+        margin-top: 0px;
+        margin-right: 20px;
+        /* background-color: red; */
+    }
+    .LoadDiv {
+        width: 250px;
+        height: 300px;
+    }
+    .QPTAGDIV {
+        width: 250px;
+        height: 400px;
+    }
+    .QPTAGDIVBUT {
+        width: 100px;
+        margin-left: 30%;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .AQS {
+        width: 60%;
+        margin-right: 0px;
+    }
+    .formdiv {
+        width: 98%;
+        /* background-color: red; */
+    }
+    .selectdiv {
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-right: 10px;
+        margin-bottom: 30px;
+        float: left;
+        display: block;
+    }
+    .QMTA {
+        margin-top: 0px;
+        margin-right: 20px;
+        /* background-color: red; */
+    }
+    .LoadDiv {
+        width: 250px;
+        height: 300px;
+    }
+    .QPTAGDIV {
+        width: 250px;
+        height: 400px;
+    }
+    .QPTAGDIVBUT {
+        width: 100px;
+        margin-left: 30%;
+    }
+}

@@ -1,0 +1,111 @@
+.SHQues {
+    width: 400px;
+    height: 280px;
+}
+
+.SHQuestop {
+    width: 100%;
+    /* background-color: red; */
+}
+
+.SHQuestop span {
+    font-size: 25px;
+    /* margin-left: 20px; */
+}
+
+.SHsubmit {
+    margin: 0 auto;
+    float: left;
+}
+
+.SHformdiv {
+    margin-top: -15px;
+    text-align: center;
+    /* background-color : #EEF1F7; */
+}
+
+.SHformdiv form input[type="text"] {
+    width: 500px;
+    padding-top: 7px;
+    text-indent: 10px;
+    padding-bottom: 7px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid;
+    outline: none;
+    border-radius: 10px;
+}
+
+.SHformdiv span {
+    /* margin-left: 25px; */
+    font-weight: 500;
+}
+
+.SHTagsmaindiv {
+    width: 100%;
+    /* background-color: red; */
+}
+
+.SHTagsmaindiv span {
+    font-size: 30px;
+    /* margin-left: 30px; */
+    margin-right: 130px;
+}
+
+.SHTagsContent {
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    border: 1px solid;
+    background-color: red;
+}
+
+.SPB {
+    margin: auto;
+    margin-left: 160px;
+    /* style={{ margin: 'auto', marginLeft: 160 }} */
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    .SHQues {
+        width: 250px;
+        height: 280px;
+    }
+    .SHQuestop span {
+        font-size: 20px;
+        /* margin-left: 20px; */
+    }
+    .SPB {
+        margin: auto;
+        /* float: left; */
+        margin-left: 130%;
+        /* style={{ margin: 'auto', marginLeft: 160 }} */
+    }
+    .SHformdiv P {
+        font-size: 15px;
+    }
+    
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .SHQues {
+        width: 250px;
+        height: 280px;
+    }
+    .SHQuestop span {
+        font-size: 20px;
+        /* margin-left: 20px; */
+    }
+    .SPB {
+        margin: auto;
+        /* float: left; */
+        margin-left: 130%;
+        /* style={{ margin: 'auto', marginLeft: 160 }} */
+    }
+    .SHformdiv P {
+        font-size: 15px;
+    }
+}

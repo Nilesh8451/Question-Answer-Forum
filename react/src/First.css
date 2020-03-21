@@ -1,0 +1,76 @@
+.First {
+  width: 100%;
+  /* background-color: red; */
+  /* position: fixed; */
+}
+
+.Second {
+  width: 18%;
+  /* background-color: yellow; */
+  /* height: 500px; */
+  margin-top: 70px;
+  float: left;
+  height: 550px;
+}
+
+.Third {
+  border-left: 1px solid black;
+  width: 82%;
+  margin-top: 80px;
+  /* min-height: 600px; */
+  min-height: 100vh;
+  /* background-color:blue; */
+  /* height:500px; */
+  float: left;
+}
+
+@media only screen and (min-width: 1224px) {}
+
+@media only screen and (max-width: 800px) {
+  .First {
+    width: 100%;
+    /* background-color: red; */
+    position: fixed;
+  }
+  .Second {
+    width: 100%;
+    /* background-color: yellow; */
+    /* height: 500px; */
+    margin-top: 60px;
+    float: left;
+    height: 100%;
+  }
+  .Third {
+    border-left: 0px solid black;
+    width: 100%;
+    margin-top: 0px;
+    /* background-color:blue; */
+    /* height:500px; */
+    float: left;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .First {
+    width: 100%;
+    /* background-color: red; */
+    position: fixed;
+  }
+  .Second {
+    width: 100%;
+    /* background-color: yellow; */
+    /* height: 500px; */
+    margin-top: 60px;
+    float: left;
+    height: 100%;
+  }
+  .Third {
+    border-left: 0px solid black;
+    width: 100%;
+    margin-top: 0px;
+    /* background-color:blue; */
+    /* height:500px; */
+    float: left;
+    margin-bottom: 50px;
+  }
+}
